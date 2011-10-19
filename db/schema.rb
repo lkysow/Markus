@@ -325,7 +325,7 @@ ActiveRecord::Schema.define(:version => 20110313200240) do
 
   create_table "submission_rules", :force => true do |t|
     t.integer  "assignment_id",                                   :null => false
-    t.string   "type",          :default => "NullSubmissionRule"
+    t.string   "type"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
